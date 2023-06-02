@@ -56,8 +56,7 @@ namespace Lab_12_2_Test_Application_Belov
             answerVariants.Add(correctAnswer);
             for (int i = 0; i < 3; i++) answerVariants.Add(sr.ReadLine());
 
-            // Display the question and answer variants
-            // Ideally randomize for fairer tests
+            // Display the question and answer variants randomised
             int indexTemp;
             for (int i = 3; i > -1; i--)
             {
